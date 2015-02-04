@@ -1,0 +1,244 @@
+body                                                                                                                                            /*Body Style  */
+{margin:0;min-width:1300px;
+ background-color:black; color:white;
+ font-family:Verdana;
+}
+                                                                     
+a{text-decoration:none;color:white;}                                      /*links style */ 
+a:hover{color:red;} 
+
+section{ width:100%; height:100%;color:white;}                              /*section style*/
+
+.home{
+ position:relative; }
+           
+.header{                                                                 /*header style*/         
+      position:fixed; height:95px;
+      width:100%;z-index:1111;background:black;
+	  box-shadow:4px 4px 4px #fffff;}
+
+.logo{ position:relative;width:10%; margin-left:10px;margin-top:5px; float:left; }
+
+.menu{ position:right; float:right;margin:35px 20px 0 0; }
+
+.menu li{
+ display:inline;
+ list-style-type:none;
+ margin-left: 10px;
+}
+.menu a{
+ border:4px solid white; 
+  padding:7px 12px 7px;
+  border-radius:10px;
+}
+                                                                         /*Home container Style*/
+.hmain{position:relative;height:670px;
+       background-image:url("image/bg1.jpg"); background-size:cover;                             }
+                                                                         /*Small circle style*/
+.skills{position:relative;
+        width:170px;                                   
+        height:170px;
+		border-radius:91px;   
+        border:6px solid white;
+		text-align:center;}
+.skills p{position:relative; 
+         top:25px;left:3%;right:20px;
+         font-size:28px;}
+                                                                        /* left side div(circle)style*/
+ .leftskills{
+  position:relative;
+  float:left;
+  margin: 7% 0 0 10%;
+  height: 500px;
+}
+.designer{
+ position:relative;
+ margin-bottom:100px;
+ margin-top:50px;
+}
+.ui{position:relative;}
+.ui p{position:relative;top:25px;padding-left:3px;}
+                                                                      /*middle circle Style*/
+.middle{
+ position:relative;
+ float:left;
+ top:29%;
+ left:10%;
+ margin:auto;
+ width:400px;
+ height:400px;
+ border-radius:206px;
+ border:6px solid white;
+}
+.middle p
+{
+ position:relative;
+ top:35px;
+ left:7px;
+ right:20px;
+ padding:0 5px;
+ font-size:25px;
+ line-height: 150%;
+ text-align:center;
+}
+.social{  
+  position:relative;                                            /*social network icon within the middle circle*/
+  width:250px;
+  top:10%;
+  left:12%;
+}
+.social li{
+ display:inline;
+ margin-left:10px;
+ }
+.social li img{
+ height:40px;
+ width:40px;
+ border-radius:20px;
+}
+.mywork {                                                       /*Button within the circle*/
+ position:relative;
+ font-size:25px;
+ padding:7px;
+ left:26%;
+ top:60px;
+ border:4px solid white;
+ border-radius:10px;
+ 
+}
+.rightskills{                                                  /*right div(circle) style*/
+ position:relative;
+ float:left;
+ margin: 7% 0 0 20%;
+}
+.html{
+ position:relative;
+ margin-bottom:100px;
+ margin-top:50px;
+}
+.uiux{position:relative;}
+.uiux p{position:relative; top:40px;}
+
+.about{                                                       /*Start of about section and its style*/
+ position:relative;
+ padding-top:25px;
+ background-image: url("image/bg3.png"); background-size:cover; 
+ height:670px;
+ }
+.about a{ border-radius:8px;
+	     background-color:black;
+	     padding:7px 12px 7px;
+		 border:4px solid white;}
+.about a:hover{ color:red; }
+.details{
+  position:relative;
+  height:450px;
+  width:60%;
+  margin:13% 20%;
+  border:4px solid white;
+  border-radius:10px;
+  background:rgba(125, 125, 199, 0.37);
+}
+.details p{
+ font-family:cursive;
+ text-align:center;
+ font-size:20px;
+ padding:12px;
+ color:#ffffff;
+ }
+.aboutimage{
+ position:absolute;
+ background-image:url("image/vik.jpg");
+ background-size:cover;
+ top:-100px;
+ right:42%;
+ height:150px;
+ width:150px;
+ border-radius:81px;
+ border:6px solid white;
+}
+.aboutme{                                  /*About me container*/
+ position:absolute;
+ top:-75px;
+ left:25px;
+ font-size:20px;
+ border-left:4px solid white;
+ border-top:4px solid white;
+ border-right:4px solid white;
+ border-radius:10px;
+ background:rgba(125, 125, 199, 0.37);
+ 
+}
+.resume{
+    position:relative;
+	top:100px;
+	left:40%;
+    font-size:20px;
+	}
+.myskills{
+ position:relative;
+ top:160px;
+ left:20%;
+
+}
+.myskills li{
+ display:inline;
+ margin:10px 20px 10px 0;
+}
+
+                                            /*work section design*/
+.works{
+ position:relative;
+ height:670px;
+ padding-top:7%;
+ background-image:url("image/work.png");
+ background-size:cover;
+}
+ .works  p{
+ font-size:35px;
+ text-align:center;
+ font-family:Dax;
+ margin:10px auto;
+  
+ } 
+ .javawork,.webwork{
+ height:450px;
+ border:6px groove white;border-radius:8px;
+ margin:1% 0 5% 6%;float:left;width:40%;
+ padding:10px;
+ }
+ .websnapshot, .javasnapshot{position:relative;width:100%;height:75%;}
+ .summary{
+  width:100%;
+  height:25%;
+  border-top:4px dashed white;  
+ 
+ }
+ 
+ .contact{                      /*Contact section design */
+  position:relative;
+  height:600px;
+  padding-top:7%;
+  height:600px;
+  background-color:white;
+  color:red;
+  font-family:Dax;
+  }
+ .contact  p{
+  position:relative;
+  font-size:60px;
+ }
+ .ctext{width:30%;margin:2% 2% 5% 8%;float:left;height:500px;
+        background-image:url("image/vkk.jpg");background-size:cover;
+		border:6px groove #000000;}
+ .cdetails{
+	float:left;
+	text-align:center;
+    width:43%;margin-left:7%;
+	height:500px;
+    background-image:url("image/contact.png");
+	background-size:cover;
+  }
+  
+  .cdetails a:hover{background-color:red;border:4px groove black;}
+  .footer{background-color:black;height:50px;width:100%;margin-left:25px;padding:5px;color:white;clear:both;display:inline;}
