@@ -1,0 +1,38 @@
+@media screen and (max-width:767px)
+{
+.header{height:60px;}                                                          /*header style*/         
+.menu{ margin:20px 5px 5px 0;}
+.menu a{padding:5px 9px 5px;border-radius:8px;border:3px solid #ffffff;margin-left:7px;}
+
+.hmain{height:100%;overflow:auto; }                              /*main content of Home page*/    
+
+.skills{width:150px; height:150px;border-radius:80px; border:4px solid white;text-align:center;}     
+.skills p{top:22px;left:3%;right:20px;font-size:22px;}
+
+.leftskills{margin-left:1%;}
+.ui p{top:20px;padding:5px;margin-right:10px;}	
+
+.middle{left:8%;width:300px;height:300px;border-radius:155px;border:4px solid white;top:150px;}	 
+.middle p{top:25px;left:2px;padding:3px;font-size:20px;line-height: 150%;}	
+.social{top:18px;left:7%;}
+.social li{margin-left:5px;}	 
+.social li img{width:35px;height:35px;border-radius:17.5px;}
+.mywork { font-size:20px;padding:5px;top:18px; left:23%;background:black; border-width:3px;border-radius:8px;} /*Button within the circle*/
+
+.rightskills{margin-left:14%;}                                               /*right div(circle) style*/
+.html p{top:30px;}
+.uiux p{top:40px;}
+
+.aboutme{                                  /*About me container*/
+ top:-75px;
+ left:10px;
+ font-size:15px;
+}
+.aboutimage{
+ right:30%;
+ height:150px;
+ width:150px;
+ border-radius:81px;
+ border:6px solid white;
+}
+}

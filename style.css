@@ -1,5 +1,5 @@
 body                                                                                                                                            /*Body Style  */
-{margin:0;min-width:1300px;
+{margin:0;
  background-color:black; color:white;
  font-family:Verdana;
 }
@@ -18,7 +18,7 @@ section{ width:100%; height:100%;color:white;}                              /*se
 	  box-shadow:4px 4px 4px #fffff;}
 
 .logo{ position:relative;width:10%; margin-left:10px;margin-top:5px; float:left; }
-
+.logo img{position:relative;width:100%;}
 .menu{ position:right; float:right;margin:35px 20px 0 0; }
 
 .menu li{
@@ -48,6 +48,7 @@ section{ width:100%; height:100%;color:white;}                              /*se
  .leftskills{
   position:relative;
   float:left;
+  size:20%;
   margin: 7% 0 0 10%;
   height: 500px;
 }
@@ -109,6 +110,7 @@ section{ width:100%; height:100%;color:white;}                              /*se
 .rightskills{                                                  /*right div(circle) style*/
  position:relative;
  float:left;
+ width:20%;
  margin: 7% 0 0 20%;
 }
 .html{
@@ -145,7 +147,14 @@ section{ width:100%; height:100%;color:white;}                              /*se
  font-size:20px;
  padding:12px;
  color:#ffffff;
- }
+  }
+.myquote{
+font-family:dex;
+font-size:25px;
+padding:12px;
+line-height:150%;
+margin:12px 15px 0 15px;
+} 
 .aboutimage{
  position:absolute;
  background-image:url("image/vik.jpg");
@@ -171,13 +180,13 @@ section{ width:100%; height:100%;color:white;}                              /*se
 }
 .resume{
     position:relative;
-	top:100px;
+	top:80px;
 	left:40%;
     font-size:20px;
 	}
 .myskills{
  position:relative;
- top:160px;
+ top:140px;
  left:20%;
 
 }
@@ -193,6 +202,7 @@ section{ width:100%; height:100%;color:white;}                              /*se
  padding-top:7%;
  background-image:url("image/work.png");
  background-size:cover;
+ color:black;
 }
  .works  p{
  font-size:35px;
@@ -203,15 +213,17 @@ section{ width:100%; height:100%;color:white;}                              /*se
  } 
  .javawork,.webwork{
  height:450px;
- border:6px groove white;border-radius:8px;
+ border:6px groove black;border-radius:8px;
  margin:1% 0 5% 6%;float:left;width:40%;
  padding:10px;
  }
- .websnapshot, .javasnapshot{position:relative;width:100%;height:75%;}
- .summary{
-  width:100%;
-  height:25%;
-  border-top:4px dashed white;  
+ .websnapshot, .javasnapshot{position:relative;width:68%;height:100%;float:left;}
+ .websnapshot img, .javasnapshot img{width:100%;height:100%;}
+ .summary{float:left;
+  width:30%;line-height:150%;
+  height:100%;font-size:20px;
+  border-left:4px solid black; 
+  padding-left:1%;  
  
  }
  
