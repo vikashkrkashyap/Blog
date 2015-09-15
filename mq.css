@@ -5,7 +5,6 @@
 .menu a{padding:5px 9px 5px;border-radius:8px;border:3px solid #ffffff;margin-left:7px;}
 
 .hmain{height:100%;overflow:auto; }                              /*main content of Home page*/    
-
 .skills{width:150px; height:150px;border-radius:80px; border:4px solid white;text-align:center;}     
 .skills p{top:22px;left:3%;right:20px;font-size:22px;}
 
@@ -17,12 +16,12 @@
 .social{top:18px;left:7%;}
 .social li{margin-left:5px;}	 
 .social li img{width:35px;height:35px;border-radius:17.5px;}
-.mywork { font-size:20px;padding:5px;top:18px; left:23%;background:black; border-width:3px;border-radius:8px;} /*Button within the circle*/
+.mywork { font-size:20px;padding:5px;top:18px; left:23%;background:black; border-width:3px;border-radius:8px;}   /*Button within the circle*/
 
-.rightskills{margin-left:14%;}                                               /*right div(circle) style*/
+.rightskills{margin-left:14%;}                                                   /*right div(circle) style*/
 .html p{top:30px;}
 .uiux p{top:40px;}
-
+.about{width:100%;}
 .aboutme{                                  /*About me container*/
  top:-75px;
  left:10px;
@@ -35,4 +34,5 @@
  border-radius:81px;
  border:6px solid white;
 }
-}
+.myquote{font-size:20px;height:70%;}
+.details{width:70%;margin-left:15%;padding-left:15px;margin-top:20%;}

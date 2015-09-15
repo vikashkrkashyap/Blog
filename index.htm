@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<title>Vikash kashyap</title>
+<title>Vikash Kashyap</title>
 <head>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="mq.css">
+<!--<link rel="stylesheet" href="mq.css">-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -72,10 +72,31 @@ system like open an account,deposite withdrawal ,checkbook and updation of passb
 </div>
 </section>
 <section class= "contact" id="contact">
-<div class="ctext"></div>
+<div id="ctext"></div>
 <div class="cdetails"><p>contact</p><h1>vikashkrkashyap@gmail.com</h1>
 <h1>mob: +91-9038669257</h1></div>
 </section>
 <div class="footer">&copy;2015 All right reserves</div>
+<script type="text/javascript" src="jquary.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+<script>
+$("a").click(function(){
+var clickId = $(this).attr("href");
+$('body').animate({scrollTop: $(clickId).offset().top},1000);
+return false;
+
+});
+</script>
+    <script>
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('ctext'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+    </script>
 </body>
 </html>

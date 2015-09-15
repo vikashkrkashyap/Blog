@@ -1,7 +1,9 @@
 body                                                                                                                                            /*Body Style  */
 {margin:0;
  background-color:black; color:white;
- font-family:Verdana;
+ font-family:Verdana;min-height:100%; 
+    
+   
 }
                                                                      
 a{text-decoration:none;color:white;}                                      /*links style */ 
@@ -240,9 +242,8 @@ margin:12px 15px 0 15px;
   position:relative;
   font-size:60px;
  }
- .ctext{width:30%;margin:2% 2% 5% 8%;float:left;height:500px;
-        background-image:url("image/vkk.jpg");background-size:cover;
-		border:6px groove #000000;}
+ #ctext{width:40%;margin:2% 0 5% 2%;float:left;height:400px;
+		border:2px groove #ffffff}
  .cdetails{
 	float:left;
 	text-align:center;
